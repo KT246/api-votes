@@ -1,0 +1,42 @@
+Dependency directories
+
+node_modules
+/dist
+/build
+/coverage
+/log
+/tmp
+
+Environment variables (Dữ liệu nhạy cảm)
+
+Các file này chứa SECRET key, thông tin database, và các biến cấu hình
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+Typescript/JavaScript artifacts (File được sinh ra tự động khi biên dịch)
+
+*.js
+*.d.ts
+*.tsbuildinfo
+
+Lock files (Dùng cho quản lý package - bỏ qua nếu bạn chỉ muốn commit package.json)
+
+Nếu bạn dùng pnpm, bạn thường nên commit pnpm-lock.yaml. Tôi sẽ bỏ qua nó theo mặc định.
+
+package-lock.json
+
+yarn.lock
+
+pnpm-lock.yaml
+
+IDE and OS files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
