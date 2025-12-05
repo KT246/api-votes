@@ -4,7 +4,7 @@
 - pnpm add -D typescript ts-node nodemon @types/node @types/express
 - npx tsc --init
 
-### tsconfig.json:
+# tsconfig.json:
 
 {
 "compilerOptions": {
@@ -16,3 +16,8 @@
 "strict": true
 }
 }
+
+# imort excel
+
+- pnpm add multer xlsx
+- pnpm add -D @types/multer
